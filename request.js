@@ -16,7 +16,7 @@ const { response } = require('express');
 let config = {
   method: 'get',
   maxBodyLength: Infinity,
-  url: 'https://portalcliente.pixeon.com/doc/rest/api/content/688547239/?expand=body.view.value',
+  url: 'https://portalcliente.pixeon.com/doc/rest/api/content/592452610/?expand=body.view.value',
   headers: { 
     'Cookie': 'JSESSIONID=D06FEE0B1DC5EF1B88EC3AB03E67FCDA; crowd.token_key=E9UAxFe2skIIbgc9Nug_uQAAAAAAAoABcmFuZ2VsLmNvcmRlaXJv'
   }
@@ -27,7 +27,7 @@ axios.request(config)
   console.log(JSON.stringify(response.data));
 
 const teste = JSON.stringify(response.data)
-const API_KEY = 'AIzaSyDfuNF1vrf_AzaN8_IcV87VFdrR5_DbMR8'; 
+const API_KEY = 'AIzaSyB3JnQ11gsTLzob9OM7agwuo6kMKmfeQmc'; 
 const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent`;
 const headers = {
   'Content-Type': 'application/json',

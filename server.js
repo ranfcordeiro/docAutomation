@@ -1,6 +1,6 @@
 const axios = require('axios');
 
-const url = 'https://webhook.site/94ba076b-79ad-4c82-b833-1a718255dac7';
+const url = 'https://webhook.site/f82f5b90-7fb7-4520-bb65-35d80f27b922';
 
 const dadosParaEnviar = {
   nome: 'Rangel',
